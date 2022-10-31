@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class kamera : MonoBehaviour
 {
-    public float sensX;
-    public float sensY;
+    public float sensitivity;
     public Transform orientation;
 
     float xRotation;
@@ -20,15 +19,16 @@ public class kamera : MonoBehaviour
 
     private void Update()
     {
-        float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * sensX;
-        float mouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * sensX;
+        float mouseX = Input.GetAxisRaw("Mouse X");
+        float mouseY = Input.GetAxisRaw("Mouse Y");
 
-        yRotation += mouseX;
-
-        xRotation -= mouseY;
+        xRotation -= mouseY * sensitivity * Time.deltaTime;
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
-        transform.rotation = Quaternion.Euler(xRotation, yRotation, 0);
-        orientation.rotation = Quaternion.Euler(0, yRotation, 0);
+        orientation.localRotation = Quaternion.Euler(xRotation, 0, 0);
+        transform.Rotate(Vector3.up, mouseX * sensitivity * Time.deltaTime);
+        
+
+        
     }
 }

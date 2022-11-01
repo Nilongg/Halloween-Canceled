@@ -30,8 +30,8 @@ namespace inputManager.pena
         {
             HideCursor();
             currentMap = playerInput.currentActionMap;
-            moveAction = currentMap.FindAction("WASD");
-            lookAction = currentMap.FindAction("Mouse");
+            moveAction = currentMap.FindAction("Move");
+            lookAction = currentMap.FindAction("Look");
             runAction = currentMap.FindAction("Run");
             jumpAction = currentMap.FindAction("Jump");
 

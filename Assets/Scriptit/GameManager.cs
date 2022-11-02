@@ -9,7 +9,8 @@ public class GameManager : MonoBehaviour
     public int placedPumpkins;
 
     public TextMeshProUGUI pumpkingText;
-    
+    public TextMeshProUGUI finalText;
+
 
     void Awake()
     {
@@ -21,5 +22,22 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         pumpkingText.text = "Pumpkins placed: " + placedPumpkins;
+        if(placedPumpkins == 5)
+        {
+            pumpkingText.text = "";
+            finalText.text = "Congratulations, you collected all the pumpkins, now halloween shall be canceled.";
+            StartCoroutine(TheEnd());
+        }
+
+    }
+    IEnumerator TheEnd()
+    {
+        yield return new WaitForSeconds(3);
+        finalText.color = Color.red;
+        yield return new WaitForSeconds(3);
+        //Load Jumpscare scene
+        //Did you really think you could cancel halloween? (text)
+
+
     }
 }

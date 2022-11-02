@@ -43,10 +43,8 @@ public class ItemPickup : MonoBehaviour
     {
         if (CurrentObject & currentCollider)
         {
-            Vector3 DirectionToPoint = PickupTarget.position - CurrentObject.position;
-            float DistanceToPoint = DirectionToPoint.magnitude;
-
-            CurrentObject.velocity = DirectionToPoint * 12f * DistanceToPoint;
+            CurrentObject.position = PickupTarget.position;
+            
         }
     }
 }

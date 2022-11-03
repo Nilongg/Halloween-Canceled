@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
@@ -10,10 +11,12 @@ public class GameManager : MonoBehaviour
 
     public TextMeshProUGUI pumpkingText;
     public TextMeshProUGUI finalText;
+    public TextMeshProUGUI livesText;
 
 
     void Awake()
     {
+        DontDestroyOnLoad(gameObject);
         instance = this;
 
     }
@@ -35,8 +38,9 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(3);
         finalText.color = Color.red;
         yield return new WaitForSeconds(3);
-        //Load Jumpscare scene
-        //Did you really think you could cancel halloween? (text)
+        SceneManager.LoadScene("jumppuscare");
+        finalText.text = "Did you really think, that you could cancel halloween, hah!";
+
 
 
     }

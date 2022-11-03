@@ -11,6 +11,9 @@ public class EnemyAi : MonoBehaviour
     public float startChaseRange = 10f;
     public float chasingSpeed = 2f;
 
+    private bool chasing;
+    private Animator anim;
+
 
 
     
@@ -18,24 +21,27 @@ public class EnemyAi : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
         
-        if(Vector3.Distance(player.position, transform.position) < startChaseRange)
+        if (Vector3.Distance(player.position, transform.position) < chasingRange)
         {
-            if (Vector3.Distance(player.position, transform.position) < chasingRange)
-            {
-                Vector3 pos = Vector3.MoveTowards(transform.position, player.position, chasingSpeed * Time.fixedDeltaTime);
-                enemyRb.MovePosition(pos);
-                transform.LookAt(player);
-            }
+            Vector3 pos = Vector3.MoveTowards(transform.position, player.position, chasingSpeed * Time.fixedDeltaTime);
+            enemyRb.MovePosition(pos);
+            transform.LookAt(player);
+            anim.SetBool("Chasing", true);
+        }
+        else
+        {
+            anim.SetBool("Chasing", false);       
+        }
             
             
 
-        }
+        
     }
 }

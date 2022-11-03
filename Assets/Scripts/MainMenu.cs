@@ -18,6 +18,13 @@ public class MainMenu : MonoBehaviour
         
     }
 
+    // Credits nappi
+    public void LoadCreditMenu()
+    {
+        SceneManager.LoadScene(SceneNimi);
+
+    }
+
 
     public void QuitGame()
     {

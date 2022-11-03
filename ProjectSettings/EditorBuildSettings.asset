@@ -5,6 +5,17 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+<<<<<<< HEAD
+  - enabled: 1
+    path: Assets/Scenes/LoadingSCENE.unity
+    guid: 5b5122a72e71e04428f62165d9b3fabc
+  - enabled: 1
+    path: Assets/Scenes/MenuSCENE.unity
+    guid: 3820391a3142d11418a26de0a1f34bb3
+  - enabled: 1
+    path: Assets/Scenes/PeliScene.unity
+    guid: 3ac410a4932778f49ae7569a659f888a
+=======
   - enabled: 0
     path: Assets/Scenes/MenuSCENE.unity
     guid: 3820391a3142d11418a26de0a1f34bb3
@@ -15,4 +26,5 @@ EditorBuildSettings:
     path: Assets/Scenes/JumpScare.unity
     guid: 599d2aba1d8731c4dbb948a40e7aae0a
     guid: ef52219e59f96e45ba39bc12898c048a
+>>>>>>> 9a94cc4c0c505a8e52d52e635c11e9746e185781
   m_configObjects: {}

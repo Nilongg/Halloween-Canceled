@@ -133,8 +133,6 @@ GameObject:
   m_Component:
   - component: {fileID: 59028539}
   - component: {fileID: 59028540}
-  - component: {fileID: 59028541}
-  - component: {fileID: 59028538}
   m_Layer: 0
   m_Name: Logic
   m_TagString: Untagged
@@ -142,21 +140,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &59028538
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 59028537}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4f5b1de5e150354ebcd57580ff032d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  placedPumpkins: 0
-  pumpkingText: {fileID: 0}
-  finalText: {fileID: 0}
 --- !u!4 &59028539
 Transform:
   m_ObjectHideFlags: 0
@@ -187,18 +170,6 @@ MonoBehaviour:
   placedPumpkins: 0
   pumpkingText: {fileID: 1186642311}
   finalText: {fileID: 1649579816}
---- !u!114 &59028541
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 59028537}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c4bdc2df43e0344488520c74bc994e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &190388793 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2617504751278555918, guid: fef7c7ee5ecc86c3cad00bf9e26a40a5, type: 3}

@@ -271,7 +271,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1108877744, guid: d8288fdd2b0f8a143a8a242335683bc1, type: 3}
       propertyPath: m_Range
-      value: 80
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 1108877744, guid: d8288fdd2b0f8a143a8a242335683bc1, type: 3}
       propertyPath: m_DrawHalo

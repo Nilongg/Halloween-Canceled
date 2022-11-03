@@ -10,15 +10,8 @@ public class jumpscare : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        
-        
-        
-        if(collision.gameObject.CompareTag("Player")) {
-            PlayerManager.lives -= 1;
+        if(collision.gameObject.CompareTag("Player")) 
             SceneManager.LoadScene(jumpscareName);
-            
-
-        }
     }
 
     

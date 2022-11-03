@@ -14,7 +14,7 @@ public class loadGame : MonoBehaviour
     IEnumerator stop()
     {
         yield return new WaitForSeconds(3);
-        SceneManager.LoadScene("Metsa");
+        SceneManager.LoadScene("RetryScene");
         
     }
 }

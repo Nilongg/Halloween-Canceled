@@ -5,30 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-<<<<<<< HEAD
-  - enabled: 0
-    path: Assets/Scenes/Scenet/MenuSCENE.unity
-    guid: 3820391a3142d11418a26de0a1f34bb3
-=======
-  - enabled: 1
-    path: Assets/Scenes/Scenet/LoadingSCENE.unity
-    guid: 5b5122a72e71e04428f62165d9b3fabc
   - enabled: 1
     path: Assets/Scenes/Scenet/MenuSCENE.unity
     guid: 3820391a3142d11418a26de0a1f34bb3
   - enabled: 1
     path: Assets/Scenes/Scenet/Metsa.unity
     guid: 0584154189cb06a9a95d67b6145275eb
->>>>>>> Joni_branch
+  - enabled: 1
+    path: Assets/Scenes/JumpScare.unity
+    guid: 599d2aba1d8731c4dbb948a40e7aae0a
   - enabled: 1
     path: Assets/Scenes/Scenet/RetryScene.unity
     guid: 13f33d6d717a97e409a05cfe062b3563
   - enabled: 1
-<<<<<<< HEAD
-    path: Assets/Scenes/JumpScare.unity
-    guid: 599d2aba1d8731c4dbb948a40e7aae0a
-=======
     path: Assets/Scenes/Scenet/EndScene.unity
     guid: b8aa66c0cb4dd3c4a9e1ad1cb860344d
->>>>>>> Joni_branch
   m_configObjects: {}

@@ -52,8 +52,6 @@ Transform:
   - {fileID: 8246433838759213424}
   - {fileID: 30485588531556552}
   - {fileID: 8246433838696973279}
-  - {fileID: 30485588453230419}
-  - {fileID: 695415900238526355}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -378,6 +376,14 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1439286650, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
+      propertyPath: chasingSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439286650, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
+      propertyPath: startChaseRange
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -433,6 +439,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
   m_PrefabInstance: {fileID: 117185138041592094}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3906617194810741447 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4005746126321617881, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
+  m_PrefabInstance: {fileID: 117185138041592094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8399744594097528482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3906617194810741447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e283e5a28ace0549a9016f4dc7cc915, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Metsa
+  jumpscareName: jumppuscare2
 --- !u!1001 &117185138067014794
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -506,6 +531,14 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1439286650, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
+      propertyPath: chasingSpeed
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439286650, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
+      propertyPath: startChaseRange
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -561,6 +594,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
   m_PrefabInstance: {fileID: 117185138078180011}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3906617193967053170 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4005746126321617881, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
+  m_PrefabInstance: {fileID: 117185138078180011}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &9089701976752732495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3906617193967053170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e283e5a28ace0549a9016f4dc7cc915, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Metsa
+  jumpscareName: jumppuscare2
 --- !u!1001 &117185138121273255
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -622,72 +674,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 416718, guid: 601b7f10102e66b41b534b7b077bd9a0, type: 3}
   m_PrefabInstance: {fileID: 117185138121273255}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &117185138191564441
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 4641026169983179102}
-    m_Modifications:
-    - target: {fileID: 1439286650, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
-      propertyPath: m_RootOrder
-      value: 24
-      objectReference: {fileID: 0}
-    - target: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -9.474304
-      objectReference: {fileID: 0}
-    - target: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -99.71619
-      objectReference: {fileID: 0}
-    - target: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4005746126321617881, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
-      propertyPath: m_Name
-      value: Zombi
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
---- !u!4 &30485588453230419 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
-  m_PrefabInstance: {fileID: 117185138191564441}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &117185138287208972
 PrefabInstance:
@@ -762,6 +748,14 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1439286650, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
+      propertyPath: chasingSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439286650, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
+      propertyPath: startChaseRange
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -817,6 +811,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
   m_PrefabInstance: {fileID: 117185138487152567}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3906617194367632494 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4005746126321617881, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
+  m_PrefabInstance: {fileID: 117185138487152567}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5464233579251462951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3906617194367632494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e283e5a28ace0549a9016f4dc7cc915, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Metsa
+  jumpscareName: jumppuscare2
 --- !u!1001 &117185138508654533
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -827,6 +840,14 @@ PrefabInstance:
     - target: {fileID: 1439286650, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
       propertyPath: player
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439286650, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
+      propertyPath: chasingSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439286650, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
+      propertyPath: startChaseRange
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
       propertyPath: m_RootOrder
@@ -883,6 +904,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
   m_PrefabInstance: {fileID: 117185138508654533}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3906617194339855388 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4005746126321617881, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
+  m_PrefabInstance: {fileID: 117185138508654533}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &9092956281134427941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3906617194339855388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e283e5a28ace0549a9016f4dc7cc915, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Metsa
+  jumpscareName: jumppuscare2
 --- !u!1001 &117185138536466690
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -893,6 +933,14 @@ PrefabInstance:
     - target: {fileID: 1439286650, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
       propertyPath: player
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439286650, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
+      propertyPath: chasingSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439286650, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
+      propertyPath: startChaseRange
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
       propertyPath: m_RootOrder
@@ -949,6 +997,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
   m_PrefabInstance: {fileID: 117185138536466690}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3906617194316284635 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4005746126321617881, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
+  m_PrefabInstance: {fileID: 117185138536466690}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3358778063529378219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3906617194316284635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e283e5a28ace0549a9016f4dc7cc915, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Metsa
+  jumpscareName: jumppuscare2
 --- !u!1001 &117185138904430150
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1022,6 +1089,14 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1439286650, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
+      propertyPath: chasingSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439286650, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
+      propertyPath: startChaseRange
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -1077,6 +1152,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
   m_PrefabInstance: {fileID: 117185139105580058}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3906617193745076163 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4005746126321617881, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
+  m_PrefabInstance: {fileID: 117185139105580058}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4864328375843635501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3906617193745076163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e283e5a28ace0549a9016f4dc7cc915, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Metsa
+  jumpscareName: jumppuscare2
 --- !u!1001 &117185139112106807
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1087,6 +1181,14 @@ PrefabInstance:
     - target: {fileID: 1439286650, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
       propertyPath: player
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439286650, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
+      propertyPath: chasingSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439286650, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
+      propertyPath: startChaseRange
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
       propertyPath: m_RootOrder
@@ -1143,6 +1245,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
   m_PrefabInstance: {fileID: 117185139112106807}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3906617193742684398 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4005746126321617881, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
+  m_PrefabInstance: {fileID: 117185139112106807}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &9110049614393778404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3906617193742684398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e283e5a28ace0549a9016f4dc7cc915, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Metsa
+  jumpscareName: jumppuscare2
 --- !u!1001 &117185139190075044
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1153,6 +1274,10 @@ PrefabInstance:
     - target: {fileID: 1439286650, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
       propertyPath: player
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439286650, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
+      propertyPath: chasingSpeed
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
       propertyPath: m_RootOrder
@@ -1209,6 +1334,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
   m_PrefabInstance: {fileID: 117185139190075044}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3906617192857011581 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4005746126321617881, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
+  m_PrefabInstance: {fileID: 117185139190075044}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8740300269669342223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3906617192857011581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e283e5a28ace0549a9016f4dc7cc915, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Metsa
+  jumpscareName: jumppuscare2
 --- !u!1001 &117185139285368981
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1282,6 +1426,14 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1439286650, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
+      propertyPath: chasingSpeed
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439286650, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
+      propertyPath: startChaseRange
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -1337,6 +1489,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
   m_PrefabInstance: {fileID: 117185139344859975}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3906617192968808606 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4005746126321617881, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
+  m_PrefabInstance: {fileID: 117185139344859975}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4876318146599350829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3906617192968808606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e283e5a28ace0549a9016f4dc7cc915, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Metsa
+  jumpscareName: jumppuscare2
 --- !u!1001 &117185139361959675
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1410,6 +1581,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1439286650, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
+      propertyPath: chasingSpeed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -1465,6 +1640,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
   m_PrefabInstance: {fileID: 117185139363608310}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3906617192954002735 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4005746126321617881, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
+  m_PrefabInstance: {fileID: 117185139363608310}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &9075383033187754048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3906617192954002735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e283e5a28ace0549a9016f4dc7cc915, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Metsa
+  jumpscareName: jumppuscare2
 --- !u!1001 &117185139558030028
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1650,70 +1844,4 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 8345562231430144956, guid: 89553c966cee82a4bb4940270d7f24ab, type: 3}
   m_PrefabInstance: {fileID: 117185139655355397}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &606438024703299161
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 4641026169983179102}
-    m_Modifications:
-    - target: {fileID: 1439286650, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
-      propertyPath: m_RootOrder
-      value: 25
-      objectReference: {fileID: 0}
-    - target: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4005746126321617881, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
-      propertyPath: m_Name
-      value: Zombie1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
---- !u!4 &695415900238526355 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 129510615782455754, guid: cfa50733980e0eb41ae778a124b40769, type: 3}
-  m_PrefabInstance: {fileID: 606438024703299161}
   m_PrefabAsset: {fileID: 0}

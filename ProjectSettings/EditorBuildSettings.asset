@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Scenet/LoadingSCENE.unity
+    guid: 5b5122a72e71e04428f62165d9b3fabc
+  - enabled: 1
     path: Assets/Scenes/Scenet/MenuSCENE.unity
     guid: 3820391a3142d11418a26de0a1f34bb3
   - enabled: 1
@@ -20,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scenet/EndScene.unity
     guid: b8aa66c0cb4dd3c4a9e1ad1cb860344d
+  - enabled: 1
+    path: Assets/Scenes/jumppuscare2.unity
+    guid: d133749d14252e4419430b6fa3519338
   m_configObjects: {}

@@ -5,11 +5,21 @@ using UnityEngine.SceneManagement;
 
 public class jumpscare : MonoBehaviour
 {
-    public string scenename;
+    public string sceneName;
+    public string jumpscareName;
 
-    void OnTriggerEnter(Collider other) {
-        if(other.CompareTag("Player")) {
-            SceneManager.LoadScene(scenename);
+    private void OnCollisionEnter(Collision collision)
+    {
+        
+        
+        
+        if(collision.gameObject.CompareTag("Player")) {
+            PlayerManager.lives -= 1;
+            SceneManager.LoadScene(jumpscareName);
+            
+
         }
     }
+
+    
 }

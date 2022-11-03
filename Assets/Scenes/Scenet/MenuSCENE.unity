@@ -304,6 +304,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5215c47dc7c00954ebb26ce4f26d6d03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SceneNimi: Metsa
 --- !u!1 &87012708
 GameObject:
   m_ObjectHideFlags: 0

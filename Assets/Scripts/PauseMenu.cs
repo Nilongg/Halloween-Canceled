@@ -9,7 +9,7 @@ public class PauseMenu : MonoBehaviour
     // if (PauseMenu.GameIsPaused{}
     public static bool GameIsPaused = false;
     public GameObject pauseMenuUI;
-    public int MenuScenenNumero;
+    public string MenuScene = "MenuSCENE";
 
     private void Update(){
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -26,6 +26,7 @@ public class PauseMenu : MonoBehaviour
     }
     public void Resume()
     {
+        Debug.Log("Resuming");
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
@@ -43,7 +44,7 @@ public class PauseMenu : MonoBehaviour
         Debug.Log("Opening menu...");
         Time.timeScale = 1f;
         // avaa menu scenen
-        SceneManager.LoadScene(MenuScenenNumero);
+        SceneManager.LoadScene(MenuScene);
         // SceneManager.LoadScene("Menu");
 
         // testi

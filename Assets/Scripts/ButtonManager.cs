@@ -4,11 +4,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class ButtonManager : MonoBehaviour
 {
-    public int MainScene;
+    public string Scene;
 
     public void ButtonMoveScene()
     {
-        SceneManager.LoadScene(MainScene);
+        SceneManager.LoadScene(Scene);
     }
 
 

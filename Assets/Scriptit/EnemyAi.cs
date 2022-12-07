@@ -8,7 +8,6 @@ public class EnemyAi : MonoBehaviour
     public Rigidbody enemyRb;
 
     public float chasingRange = 20f;
-    public float startChaseRange = 10f;
     public float chasingSpeed = 2f;
 
     private bool chasing;
